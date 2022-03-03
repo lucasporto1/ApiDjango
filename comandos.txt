@@ -1,0 +1,11 @@
+python -m venv ./venv
+venv\Scripts\activate.bat ativa venv
+django-admin startproject setup . startou projeto setup
+
+python manage.py startapp escola
+pip install django
+
+python manage.py runserver rodar aplicação
+
+LANGUAGE_CODE = 'pt-br'
+TIME_ZONE = 'America/Sao_Paulo'
